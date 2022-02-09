@@ -34,6 +34,7 @@ IBM Cloud™ Monitoring with Sysdig is a third-party cloud-native, and container
 
 Variable     | Type   | Description                                                     | Default
 ------------ | ------ | --------------------------------------------------------------- |--------
+TF_VERSION   | string | The version of the Terraform engine that's used in the Schematics workspace.                   | 0.13.7
 ibm_region   | string | IBM Region where resource will be provisioned                   | 
 logdna_crn   | string | The unique identifier of the LogDNA instance                    | 
 sysdig_crn   | string | The unique identifier of the Sysdig instance                    | 
